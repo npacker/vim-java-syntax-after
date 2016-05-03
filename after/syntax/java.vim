@@ -1,5 +1,4 @@
-syntax match Brackets display '[(){}\[\]]'
-highlight Brackets ctermfg=124
+syntax match Special display '[(){}\[\]]'
 
 syntax match ClassName display '\<\([A-Z][a-z0-9]*\)\+\>'
 syntax match ClassName display '\.\@<=\*'
